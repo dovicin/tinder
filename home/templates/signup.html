@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 ielt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 ielt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>SignUp Page</title>
+  <link rel="stylesheet" type="text/css" href="static/css/signup.css" type="text/css">
+  </head>
+<body>
+<div class="header1">
+<div id="name" class="header1"><a href='homepage.html'>OLD MASTER</a></div>
+ <div id="profilearea1" class="header1">|</div>
+ <div id="profilearea2" class="header1">SignUp Page</div>
+  <section id="content">
+    <form method="POST">
+      <h1>Register Form</h1>
+      {% csrf_token %}
+      <div id="side5" class="header1">
+        <label for="username" class="form-label">username</label>
+        <input type="text" class="form-control" name="username">
+      </div>
+      <div id="side7" class="header1">
+        <label for="first_name" class="form-label">first name</label>
+        <input type="text" class="form-control" name="first_name">
+      </div>
+      <div id="side9" class="header1">
+        <label for="last_name" class="form-label">last name</label>
+        <input type="text" class="form-control" name="last_name">
+      </div>
+      <div id="side19" class="header1">
+        <label for="email" class="form-label">email</label>
+        <input type="text" class="form-control" name="email">
+      </div>
+      <div id="side13" class="header1">
+        <label for="password" class="form-label">password</label>
+        <input type="password" class="form-control" name="password">
+      </div>
+      <div id="side15" class="header1">
+        <label for="confirm_password" class="form-label">confirm password</label>
+        <input type="password" class="form-control" name="confirm_password">
+      </div>
+      <div id="side17" class="header1">
+      <input type="submit" value="Register" class="btn btn-primary">
+        <a href="./login">Login</a>
+      </div>
+    </form><!-- form -->
+    
+  </section><!-- content -->
+</div><!-- container -->
+</body>
+</html>
