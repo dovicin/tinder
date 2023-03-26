@@ -1,0 +1,77 @@
+body{  background: linear-gradient(to bottom right, white, #bcbdc4);
+    height:400px;}
+    .header1{
+    position:fixed;
+    width :100%;
+    height:70px;
+    background :#147064;
+    top:0;
+    bottom:0;
+    color: white;
+    z-index:7;
+    }
+    .header2{
+    position:fixed;
+    width :100%;
+    height:70px;
+    background :#147064;
+    top:0;
+    bottom:0;
+    color: white;
+    z-index:7;
+    }
+    #name{left:0px;
+    font-family: verdana sans-serif;
+    font-size:58px;}
+    #profilearea{top:20px;
+    left:920px;
+    height:30px;
+    font-size:20px;
+    font-family:verdana  sans-serif;
+    }
+    #profilearea1{top:10px;
+    left:380px;
+    height:30px;
+    font-size:40px;
+    font-family:verdana  ;
+    }
+    #profilearea2{top:17px;
+    left:400px;
+    height:30px;
+    font-size:35px;
+    font-family:verdana sans-serif ;
+    }
+    #side5{top:110px;
+        left:15px;
+        width:160px;
+        height:130px;
+        font-size:18px;
+        color:#363030;
+        padding-top:5px;
+        padding-left:20px;
+        }
+        #side7{top:180px;
+        left:15px;
+        width:160px;
+        height:30px;
+        font-size:15px;
+        color:#363030;
+        padding-top:5px;
+        padding-left:20px;
+        }
+        #side9{top:225px;
+        left:15px;
+        width:160px;
+        height:25px;
+        font-size:15px;
+        padding-top:5px;
+        padding-left:20px;
+        }
+        #side10{top:250px;
+        left:15px;
+        width:160px;
+        height:25px;
+        font-size:18px;
+        padding-top:5px;
+        padding-left:20px;
+        }
